@@ -1,0 +1,63 @@
+{
+    "name": "r2urito",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "e419adc7-c2fc-4331-887b-ec7e193793a0",
+            "subscriptionId": "31495faa-a94a-4ccb-af6c-f245b5504d7f",
+            "resourceGroup": "NationalUniversity",
+            "serviceName": "r2urito",
+            "name": "r2urito",
+            "id": "1",
+            "appId": "4dd54c63-736e-4ee2-b492-e1cb863305e5"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=r2uritobb52;AccountKey=sL3YJ8lopqATBDl2jzGbdBlJjPAUSpOKs0L1xVj8O7WNlC55tHJtEy1oqyuKMMp+fWu171X9Y2+EUA857+iTCw==;",
+            "tenantId": "e419adc7-c2fc-4331-887b-ec7e193793a0",
+            "subscriptionId": "31495faa-a94a-4ccb-af6c-f245b5504d7f",
+            "resourceGroup": "NationalUniversity",
+            "serviceName": "r2uritobb52",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "4dd54c63-736e-4ee2-b492-e1cb863305e5",
+            "appPassword": "YDiq8$R2KT)k0t&b",
+            "endpoint": "https://r2urito.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "54ee3b9f-0564-4577-9b6a-0ae947b37d27",
+            "applicationId": "0e01e22d-ada9-4806-9e4b-cc73a20e03ee",
+            "apiKeys": {},
+            "tenantId": "e419adc7-c2fc-4331-887b-ec7e193793a0",
+            "subscriptionId": "31495faa-a94a-4ccb-af6c-f245b5504d7f",
+            "resourceGroup": "NationalUniversity",
+            "serviceName": "r2urito7mrpsm",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "appId": "ab122cbd-78c9-442e-b58e-23474cc6381e",
+            "authoringKey": "ac78dbfe1994434ab51a68c7244c35a0",
+            "version": "0.1",
+            "region": "westus",
+            "name": "BasicBotLuisApplication",
+            "id": "6"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
